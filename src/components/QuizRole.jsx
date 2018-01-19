@@ -3,13 +3,13 @@ import QuizRoleComponent from './QuizRoleComponent';
 
 var masterQuizRole = [
   {
-    name: 'Expecting a child',
+    role: 'Expecting a child',
   },
   {
-    name: 'A parent or guardian',
+    role: 'A parent or guardian',
   },
   {
-    name: 'Interested in helping a parent or guardian, by taking quiz to see if they\'d qualify',
+    role: 'Interested in helping a parent or guardian, by taking quiz to see if they\'d qualify',
   }
 ];
 
@@ -17,9 +17,9 @@ function QuizRole(){
   return (
     <div>
       <hr/>
-      {masterQuizRole.map((profile, index) =>
+      {masterQuizRole.map((quiz, index) =>
         <QuizRoleComponent
-          name={profile.name}
+          role={quiz.role}
           key={index}/>
       )}
     </div>

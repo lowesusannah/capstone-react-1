@@ -1,18 +1,24 @@
 import React from 'react';
 import momandson from '../assets/images/momandson.jpg';
-
+import HomeHeader from './HomeHeader';
 
 function Home(){
-  let myStyledComponentStyles = {
-    backgroundColor: '#ecf0f1',
-    fontFamily: 'sans-serif',
-    paddingTop: '50px',
-    textAlign: 'center',
+  const Style = {
+    bodyStyledComponent: {
+      height: '500px',
+      width: '100vw',
+      backgroundImage: `url(${momandson})`,
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      display: 'flex',
+      zIndex: '-1000',
+      overflow: 'hidden'
+    }
   };
 
   return(
-    <div style={myStyledComponentStyles}>
-      <img src={momandson}/>
+    <div style={Style.bodyStyledComponent}>
+      <HomeHeader/>
     </div>
   );
 }
