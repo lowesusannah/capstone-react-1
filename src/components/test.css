@@ -1,0 +1,8 @@
+body {
+  background-color: linear-gradient(blue, pink)
+}
+
+
+backgroundImage: `url(${wall})`,
+backgroundSize: 'cover',
+backgroundRepeat: 'no-repeat',
