@@ -3,6 +3,7 @@ import Home from './Home';
 import QuizRole from './QuizRole';
 import Logo from './Logo';
 import Pregnant from './Pregnant';
+import Household from './Household';
 import { Switch, Route } from 'react-router-dom';
 
 function App(){
@@ -19,6 +20,7 @@ function App(){
         <Route exact path='/' component={Home} />
         <Route path='/quizrole' component={QuizRole} />
         <Route path='/pregnant' component={Pregnant} />
+        <Route path='/household' component={Household}/>
       </Switch>
     </div>
   );

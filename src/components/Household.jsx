@@ -1,22 +1,20 @@
 import React from 'react';
-import Modal from './Modal';
+import HeaderBackground from './HeaderBackground';
 
 
-function Pregnant(){
+function Household(){
   const Style = {
     bodyStyledComponent: {
       height: '500px',
-      width: '67vw',
-      backgroundColor: 'white'
+      width: '100vw',
     }
   };
 
   return(
     <div style={Style.bodyStyledComponent}>
-      <Modal>
-      </Modal>
+      <HeaderBackground/>
     </div>
   );
 }
 
-export default Pregnant;
+export default Household;
