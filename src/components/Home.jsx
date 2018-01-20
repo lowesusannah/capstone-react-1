@@ -1,6 +1,7 @@
 import React from 'react';
 import momandson from '../assets/images/momandson.jpg';
 import HomeHeader from './HomeHeader';
+import TakeQuizButton from './TakeQuizButton';
 
 function Home(){
   const Style = {
@@ -10,15 +11,13 @@ function Home(){
       backgroundImage: `url(${momandson})`,
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
-      display: 'flex',
-      zIndex: '-1000',
-      overflow: 'hidden'
     }
   };
 
   return(
     <div style={Style.bodyStyledComponent}>
       <HomeHeader/>
+      <TakeQuizButton />
     </div>
   );
 }

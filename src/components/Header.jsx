@@ -6,9 +6,9 @@ import Logo from './Logo';
 function Header(){
   const styles = {
     containerStyle: {
+      height: '100px',
+      backgroundColor: 'white'
     },
-    menuStyle:{
-    }
   };
   return (
     <div style={styles.containerStyle}>

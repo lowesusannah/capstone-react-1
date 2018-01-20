@@ -1,7 +1,7 @@
 import React from 'react';
 import WebFont from 'webfontloader';
 
-function HomeHeader(){
+function HeaderBackground(){
 
   WebFont.load({
     google: {
@@ -12,26 +12,18 @@ function HomeHeader(){
   const styles = {
     containerStyle: {
       borderBox: 'box-border',
-      height: '150px',
+      height: '100px',
       width: '100%',
       background: 'linear-gradient(to left, #2F3590, #6C57A1)',
       backgroundSize: 'contain',
       fontFamily: '"Pt Serif", serif',
-      fontSize: '20pt',
+      fontSize: '14pt',
       color: 'white',
       textAlign: 'center',
       position: 'absolute',
-      top: '485px',
-      boxShadow: '10px 5px 5px black',
+      top: '70px',
       display: 'inline-block'
     },
-    menuStyle:{
-      fontFamily: 'Nunito',
-      fontSize: '14pt',
-      color: 'white',
-      borderBottom: '20px',
-      textAlign: 'right'
-    }
   };
   return (
     <div style={styles.containerStyle}>
@@ -40,4 +32,4 @@ function HomeHeader(){
   );
 }
 
-export default HomeHeader;
+export default HeaderBackground;
