@@ -1,4 +1,5 @@
 # Capstone Project: Part I - A quiz
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 #### _My first react project, which is static vs. dynamic for now. Practice with react-router and JSX syntax._
 
@@ -6,7 +7,7 @@
 #### By _**Susannah Lowe**_
 
 ## Description
-_This application leads a user through a quiz._
+_This application leads a user through a quiz to determine if they are eligible for government benefits._
 
 
 ## Setup/Installation Requirements
