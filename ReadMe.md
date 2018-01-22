@@ -25,7 +25,7 @@ _This application leads a user through a quiz to determine if they are eligible 
 
 
 ## Component Structure
-![Component Structure Chart]('./src/assets/images/ComponentStructure.png')
+![Component Structure Chart](https://github.com/lowesusannah/capstone-react-1/blob/master/src/assets/images/ComponentStructure.png)
 
 
 ## Known Bugs
