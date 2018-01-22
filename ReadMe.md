@@ -23,8 +23,6 @@ _This application leads a user through a quiz to determine if they are eligible 
         - $npm install
         - $npm run start
 
-
-## Component Structure
 ![Component Structure Chart](https://github.com/lowesusannah/capstone-react-1/blob/master/src/assets/images/ComponentStructure.png)
 
 
